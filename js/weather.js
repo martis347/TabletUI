@@ -5,7 +5,7 @@ $(document).ready(function(){
 	console.log(location);
 	
 	loadWeather(location);
-    setInterval(function(){loadWeather(location)}, 1000);
+    setInterval(function(){loadWeather(location)}, 100000);
 });
 
 function loadWeather(location){

@@ -4,6 +4,12 @@
   color: #ffffff;
 }
 
+#time {
+	right: 31%;
+    position: absolute;
+    font-size: 13em;
+}
+
 .info_bg p {
   margin-bottom: -.2em;
 }

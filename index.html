@@ -9,6 +9,10 @@
   <link rel="stylesheet" href="css/calendar.css">
 </head>
 <body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.0/moment.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.0/locale/lt.js"></script>
+<div id="time"></div>
+
 <div id="calendar"></div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -18,8 +22,14 @@
 		inline: true,
 		firstDay: 1,
 		showOtherMonths: false,
-		dayNamesMin: ['Sk', 'Pr', 'An', 'Tr', 'Kt', 'Pen', 'Še']
+		dayNamesMin: ['Sk', 'Pr', 'An', 'Tr', 'Kt', 'Pn', 'Št']
 	});
+			//document.getElementById("time").innerHTML = "<h1>" + moment().format("HH:mm:ss") + "</h1>";
+
+	setInterval(function(){
+		document.getElementById("time").innerHTML = "<h1>" + moment().format("HH:mm:ss") + "</h1>";
+		console.log(document.getElementById("time").innerHTML = "<h1>" + moment().format("HH:mm:ss") + "</h1>");
+	},1000);
 </script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js" ></script>
