@@ -19,13 +19,13 @@
 /* Calendar Wrapper */
 .ui-datepicker {
 	display: none;
-	width: 350px;
+	width: 500px;
 	padding: 35px;
 	cursor: default;
 
 	text-transform: uppercase;
 	font-family: Tahoma;
-	font-size: 12px;
+	font-size: 28px;
 
 }
 
@@ -50,8 +50,8 @@
 	position: absolute;
 	top: 5px;
 	right: 0;
-	width: 5px;
-	height: 5px;
+	width: 10px;
+	height: 10px;
 	content: '';
 
 	background: #1ab1ed;
@@ -95,7 +95,7 @@
 .ui-datepicker-prev span,
 .ui-datepicker-next span{
 	display: block;
-	width: 5px;
+	width: 10px;
 	height: 10px;
 	text-indent: -9999px;
 }
@@ -127,7 +127,7 @@
 
 .ui-datepicker-calendar .ui-state-default {
 	display: block;
-	width: 26px;
+	width: 52px;
 	outline: none;
 
 	text-decoration: none;

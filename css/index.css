@@ -16,8 +16,8 @@
 
 .climate_bg {
   position: absolute;
-  left: 286px;
-  top:276px;
+  left: 225px;
+  top:215px;
   z-index: 6;
   width: 163px;
   height: 149px;
@@ -28,9 +28,9 @@
   display: block;
   position: absolute;
   top: -5px;
-  left: 1.226993865%;
+  left: 25px;
   z-index: 5;
-  width: auto;
+  width: 150px;
   height: auto;
   overflow: hidden;
 }

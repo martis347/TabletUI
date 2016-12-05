@@ -15,7 +15,7 @@ function loadWeather(location){
         success: function(weather){
             city = weather.city;
             temp = weather.temp + '&deg;';
-            wcode = '<svg class="weathericon" src="images/weathericons/'+weather.code+'.svg">';
+            wcode = '<img class="weathericon" src="images/weathericons/'+weather.code+'.svg">';
             wind = '<p>' + weather.wind.speed + weather.units.speed + '</p>';
             humidity = weather.humidity+' %';
             $(".location").text(city);
